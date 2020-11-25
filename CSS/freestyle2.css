@@ -1,0 +1,70 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-image:url('../images/transparent.jpg');
+    background-size:100%;
+    font-family:Cheltenham;
+}
+
+.login-div{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  width:400px;
+  height:501px;
+  box-sizing:border-box;
+  background-color:rgba(0,0,0,0.5);
+  padding:40px;
+}
+
+.login-div h3{
+  color:#fff;
+
+}.login-div p{
+  color:#fff;
+  font-weight:bold;
+
+}
+.login-div input[type="text"], input[type="Password"]{
+  background-color: transparent;
+  border:none;
+  border-bottom: 2px solid white;
+  outline:none;
+  width:100%;
+
+}
+
+.login-div select[id=""]{
+  padding:5px;
+  width:100%;
+}
+
+.login-div input[type="submit"]{
+  padding:6px;
+  margin-top:8px;
+  width:100%;
+  background-color: rgb(85, 19, 19);
+  color:white;
+  border:1px solid rgb(85, 19, 19);
+  border-radius:30px;
+  font-size:20px;
+}
+
+.login-div input[type="submit"]:hover{
+  background-color: rgb(23, 44, 138);
+  border: 1px solid  rgb(23, 44, 138);
+}
+
+.login-div a{
+  color:rgb(255, 255, 255);
+}
+
+.login-div a:hover{
+  background-color:rgb(16, 70, 16);
+  
+}
+
+::placeholder{
+  color:white;
+}
